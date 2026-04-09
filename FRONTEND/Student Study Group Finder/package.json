@@ -12,11 +12,15 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+<<<<<<< HEAD
     "@fontsource/roboto": "^5.2.10",
     "@mui/icons-material": "^9.0.0",
+=======
+>>>>>>> e7f1d3afeb075b840713481fa6b3024671f6a3a8
     "@mui/material": "^9.0.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",

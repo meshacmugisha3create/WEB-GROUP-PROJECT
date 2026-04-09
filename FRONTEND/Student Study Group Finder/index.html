@@ -11,3 +11,47 @@
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+import { useState } from 'react';
+import './Page4.css';
+
+export default function Page4() {
+  const [output, setOutput] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const date = e.target.date.value;
+    const time = e.target.time.value;
+    const location = e.target.location.value;
+    const description = e.target.description.value;
+
+    setOutput({ date, time, location, description });
+    e.target.reset();
+  };
+
+  return (
+    <div className="container">
+      <h2>Create Study Session</h2>
+      <form onSubmit={handleSubmit}>
+        <label>Date:</label>
+        <input type="date" name="date" required />
+        <label>Time:</label>
+        <input type="time" name="time" required />
+        <label>Location or Meeting Link:</label>
+        <input type="text" name="location" placeholder="Enter location or link" required />
+        <label>Description:</label>
+        <textarea name="description" rows="3" placeholder="Brief description" required></textarea>
+        <button type="submit">Create Session</button>
+      </form>
+      {output && (
+        <div className="output">
+          <h3>Session Created:</h3>
+          <p><strong>Date:</strong> {output.date}</p>
+          <p><strong>Time:</strong> {output.time}</p>
+          <p><strong>Location:</strong> {output.location}</p>
+          <p><strong>Description:</strong> {output.description}</p>
+        </div>
+      )}
+    </div>
+  );
+}
