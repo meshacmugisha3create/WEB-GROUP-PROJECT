@@ -112,7 +112,7 @@ function App() {
         </div>
       </section>
 
-      <div className="ticks"></div>
+      <div Name="ticks"></div>
       <section id="spacer"></section>
     </>
   )
