@@ -1,7 +1,7 @@
  function Page1() {
     return (
         <div>
-            <h1>Student Study Group Finder</h1>
+            <h1>Student Study Group </h1>
         </div>
     );
 }   
