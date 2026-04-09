@@ -1,4 +1,93 @@
-h1{
-    color: blue;
-    font-size: 23px;
+.myBox{
+    width: 500px;
+    height: 350px; 
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 5px solid black;
 }
+
+.my{
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-04-09\ at\ 10.52.09.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.pytho{
+    width: 250px;
+    height: 60px;
+    margin-left: 85px;
+    margin-bottom: 300px;
+    position: absolute;
+    top: 150px;
+}
+
+.grp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:500;
+}
+
+.username{
+     border: 5px solid black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 11px;
+     width: 300px;
+     height: 20px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.email{
+     border: 5px solid black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 11px;
+     width: 300px;
+     height: 20px;
+    margin-bottom: 20px;
+}
+
+.password{
+     border: 5px solid black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 11px;
+     width: 300px;
+     height: 20px;
+    margin-bottom: 20px;
+}
+
+.login{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.word{
+    color: white;
+}
+
+.myBox2d{
+    width: 500px;
+    height: 100px; 
+    background-color: black;
+    margin-bottom: 60px;
+    position: absolute;
+    bottom: 463px;
+    z-index: 2;
+}
+
