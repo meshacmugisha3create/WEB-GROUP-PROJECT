@@ -10,7 +10,7 @@ function App() {
     </div>
 =======
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Page1 from './Page1';
+import Page1 from './GetStarted';
 import Page2 from './page2';
 import Page3 from './page3';
 import Page4 from './page4'; // Ensure the 'p' matches your filename
@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Page1 />} />
+        <Route path="/" element={<GetStarted />} />
         <Route path="/page2" element={<Page2 />} />
         <Route path="/page3" element={<Page3 />} />
         <Route path="/page4" element={<Page4 />} /> 

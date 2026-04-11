@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'; // The tool for navigation
 import axios from 'axios'; // The tool for connecting to the database
 import { Box, Container, Paper, Stack, Typography, TextField, Button } from '@mui/material'; // Matches your UI components
 
-export default function Page4() {
+export default function GroupSubForm() {
   const navigate = useNavigate(); // Initialize the "driver"
 
   // Function to handle the form submission
