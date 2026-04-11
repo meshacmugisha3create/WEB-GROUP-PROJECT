@@ -1,0 +1,103 @@
+{
+  "groups": [
+    {
+      "groupName": "Study Group",
+      "course": "Database",
+      "location": "Ham Mukasa",
+      "description": "OSI Models",
+      "id": "wLEhH5QvuOQ"
+    },
+    {
+      "groupName": "Study Group",
+      "course": "Database",
+      "location": "Ham Mukasa",
+      "description": "",
+      "id": "X1IcJQGZsss"
+    },
+    {
+      "groupName": "Study Group",
+      "course": "Database",
+      "location": "Ham Mukasa",
+      "description": "",
+      "id": "o0961AlEF9M"
+    },
+    {
+      "groupName": "Pythoncrats",
+      "course": "Foundmentals of Computing",
+      "location": "ActUs Auditorium",
+      "description": "This is a web development group where we come together to do software development and application development as students and peers",
+      "id": "jzMwW8GoRhk"
+    },
+    {
+      "groupName": "ChristLike",
+      "course": "Music",
+      "location": "ActUs studios",
+      "description": "To do music rehearsals of our US tour",
+      "id": "DlvEm9DFnl8"
+    },
+    {
+      "groupName": "ChristLike",
+      "course": "Music",
+      "location": "ActUs studios",
+      "description": "",
+      "id": "laH6WKzSp6g"
+    },
+    {
+      "groupName": "ChristLike",
+      "course": "Music",
+      "location": "ActUs studios",
+      "description": "",
+      "id": "RYtRRESJVRY"
+    },
+    {
+      "groupName": "TESTING APPLICATION",
+      "course": "Web and Mobile Aplication",
+      "location": "LIBRARY",
+      "description": "",
+      "id": "gXLyxon_crg"
+    },
+    {
+      "groupName": "NANCY PROJECT GROUP",
+      "course": "Film making",
+      "location": "UCU backetball field",
+      "description": "Filming scene two of Nancy",
+      "id": "qQ6NpO4W2I4"
+    },
+    {
+      "groupName": "Auditing",
+      "course": "Accounting",
+      "location": "CEO Office",
+      "description": "Looking through the Company books to find out what's up",
+      "id": "M_MRbJvyW7M"
+    },
+    {
+      "groupName": "Auditing",
+      "course": "Accounting",
+      "location": "CEO Office",
+      "description": "",
+      "id": "3Y-bjgRoWl4"
+    },
+    {
+      "groupName": "Auditing",
+      "course": "Accounting",
+      "location": "CEO Office",
+      "description": "",
+      "id": "SevjYAbs0Pw"
+    },
+    {
+      "groupName": "Auditing",
+      "course": "Accounting",
+      "location": "CEO Office",
+      "description": "ddd",
+      "id": "F4y5jRK2bpI"
+    },
+    {
+      "groupName": "nn",
+      "course": "nn",
+      "location": "jjnn",
+      "description": "",
+      "id": "jBOMkxXly5U"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

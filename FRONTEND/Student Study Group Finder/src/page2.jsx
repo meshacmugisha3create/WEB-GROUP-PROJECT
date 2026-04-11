@@ -1,125 +1,93 @@
-import React, { useState } from 'react';
-import { 
-  TextField, Button, Typography, Container, Stack, Paper, Box, InputAdornment 
-} from '@mui/material';
-import { 
-  GroupAdd, Book, LocationOn, Description, AutoAwesome 
-} from '@mui/icons-material';
+import React from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // The tool for navigation
+import axios from 'axios'; // The tool for connecting to the database
+import { Box, Container, Paper, Stack, Typography, TextField, Button } from '@mui/material'; // Matches your UI components
 
-function Page2() {
-  const [groupData, setGroupData] = useState({
-    name: '',
-    course: '',
-    location: '',
-    description: ''
-  });
+export default function Page4() {
+  const navigate = useNavigate(); // Initialize the "driver"
 
-  const handleChange = (e) => {
-    setGroupData({ ...groupData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
+  // Function to handle the form submission
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("New Group Data:", groupData);
-    alert("✨ Group Created Successfully!");
+
+    // 1. Capture the data from your form fields
+    const formData = {
+      groupName: e.target.groupName.value,
+      course: e.target.course.value,
+      location: e.target.location.value,
+      description: e.target.description.value,
+    };
+
+    try {
+      // 2. Send the data to your backend engine (Port 5000)
+      await axios.post('http://localhost:5000/groups', formData);
+      
+      // 3. Show success message
+      alert("Group Created Successfully!");
+
+      // 4. THE FIX: Automatically navigate to Page 3 to see the list
+      navigate('/page3'); 
+
+    } catch (err) {
+      console.error("Database Error:", err);
+      alert("Failed to save. Make sure your Backend (npx json-server) is running!");
+    }
   };
 
   return (
-    <Box sx={{ 
-      minHeight: '100vh', 
-      background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', // Soft professional background
-      display: 'flex', 
-      alignItems: 'center', 
-      py: 5 
-    }}>
+    <Box sx={{ py: 8, bgcolor: '#f5f5f5', minHeight: '100vh' }}>
       <Container maxWidth="sm">
-        <Paper elevation={10} sx={{ p: 4, borderRadius: 4, textAlign: 'center' }}>
-          
-          {/* Header Section with Icon */}
-          <Box sx={{ mb: 3 }}>
-            <AutoAwesome color="primary" sx={{ fontSize: 40, mb: 1 }} />
-            <Typography variant="h4" fontWeight="bold" gutterBottom color="primary">
-              Create Study Group
-            </Typography>
-            <Typography variant="body2" color="textSecondary">
-              Fill in the details below to start collaborating with your peers at UCU.
-            </Typography>
-          </Box>
+        <Paper elevation={3} sx={{ p: 4, borderRadius: 2 }}>
+          <Typography variant="h4" align="center" gutterBottom color="primary">
+            Create Study Group
+          </Typography>
+          <Typography variant="body1" align="center" sx={{ mb: 4, color: 'text.secondary' }}>
+            Fill in the details below to start collaborating with your peers at UCU.
+          </Typography>
 
           <form onSubmit={handleSubmit}>
             <Stack spacing={3}>
-              <TextField
-                fullWidth
-                label="Group Name"
-                name="name"
-                required
-                variant="outlined"
-                value={groupData.name}
-                onChange={handleChange}
-                InputProps={{
-                  startAdornment: (
-                    <InputAdornment position="start"><GroupAdd color="action" /></InputAdornment>
-                  ),
-                }}
+              <TextField 
+                fullWidth 
+                label="Group Name" 
+                name="groupName" 
+                required 
+                variant="outlined" 
               />
-
-              <TextField
-                fullWidth
-                label="Course Name or Code"
-                name="course"
-                required
-                placeholder="e.g., CSC1202"
-                value={groupData.course}
-                onChange={handleChange}
-                InputProps={{
-                  startAdornment: (
-                    <InputAdornment position="start"><Book color="action" /></InputAdornment>
-                  ),
-                }}
+              <TextField 
+                fullWidth 
+                label="Course Name or Code" 
+                name="course" 
+                required 
+                variant="outlined" 
               />
-
-              <TextField
-                fullWidth
-                label="Meeting Location"
-                name="location"
-                required
-                placeholder="e.g., Hamu Mukasa Library or Zoom"
-                value={groupData.location}
-                onChange={handleChange}
-                InputProps={{
-                  startAdornment: (
-                    <InputAdornment position="start"><LocationOn color="action" /></InputAdornment>
-                  ),
-                }}
+              <TextField 
+                fullWidth 
+                label="Meeting Location" 
+                name="location" 
+                required 
+                variant="outlined" 
               />
-
-              <TextField
-                fullWidth
-                label="Short Description"
-                name="description"
-                multiline
-                rows={3}
+              <TextField 
+                fullWidth 
+                label="Short Description" 
+                name="description" 
+                multiline 
+                rows={3} 
+                variant="outlined" 
                 placeholder="What topics will this group focus on?"
-                value={groupData.description}
-                onChange={handleChange}
-                InputProps={{
-                  startAdornment: (
-                    <InputAdornment position="start"><Description color="action" /></InputAdornment>
-                  ),
-                }}
               />
-
+              
               <Button 
                 type="submit" 
                 variant="contained" 
                 size="large" 
                 sx={{ 
                   py: 1.5, 
-                  borderRadius: 2, 
-                  fontSize: '1.1rem',
+                  textTransform: 'none', 
                   fontWeight: 'bold',
-                  textTransform: 'none',
-                  boxShadow: '0 4px 14px 0 rgba(0,118,255,0.39)'
+                  fontSize: '1.1rem' 
                 }}
               >
                 Launch Study Group
@@ -131,5 +99,3 @@ function Page2() {
     </Box>
   );
 }
-
-export default Page2;

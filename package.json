@@ -1,5 +1,9 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
     "react-router-dom": "^7.14.0"
+=======
+    "@mui/icons-material": "^9.0.0"
+>>>>>>> Stashed changes
   }
 }
