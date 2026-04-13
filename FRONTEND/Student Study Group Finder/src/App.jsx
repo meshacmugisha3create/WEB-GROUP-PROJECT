@@ -1,19 +1,9 @@
-<<<<<<< Updated upstream
-// src/App.jsx
-import React from "react";
-import page3 from "./pages/page3"; // Import the page component
-
-function App() {
-  return (
-    <div className="App">
-      <page3 /> {/* Render page 3 */}
-    </div>
-=======
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Page1 from './GetStarted';
 import Page2 from './page2';
 import Page3 from './page3';
-import Page4 from './page4'; // Ensure the 'p' matches your filename
+import Page4 from './page4'; 
 import Page5 from './page5';
 import Page6 from './page6';
 
@@ -29,7 +19,6 @@ function App() {
         <Route path="/page6" element={<Page6 />} />
       </Routes>
     </Router>
->>>>>>> Stashed changes
   );
 }
 
