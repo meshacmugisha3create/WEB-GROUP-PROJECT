@@ -1,0 +1,139 @@
+{
+  "groups": [
+    {
+      "groupName": "ChristLike",
+      "course": "123",
+      "location": "BSIT",
+      "id": "0jP_UKNMo-c"
+    },
+    {
+      "groupName": "Caleb",
+      "course": "Acting",
+      "location": "Noll block",
+      "id": "FlyRgtPPOLs"
+    },
+    {
+      "groupName": "DATABASE",
+      "course": "BSIT",
+      "location": "LIB",
+      "id": "YRC-wFA5G3k"
+    },
+    {
+      "groupName": "",
+      "course": "",
+      "location": "",
+      "id": "I4nR-yk3AwY"
+    }
+  ],
+  "users": [
+    {
+      "FirstName": "Caleb",
+      "SecondName": "Kironde",
+      "Username": "ChristLike",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "w-fuAEBAMcY"
+    },
+    {
+      "FirstName": "Actus",
+      "SecondName": "Actus",
+      "Username": "Actus",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "vvvjU-vb2Ko"
+    },
+    {
+      "FirstName": "Bwayo",
+      "SecondName": "Genevieve",
+      "Username": "Bwayo",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "vuTpKHqcQc4"
+    },
+    {
+      "FirstName": "Zaina",
+      "SecondName": "Manuella",
+      "Username": "Manuella",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "f1bUklGgCaA"
+    },
+    {
+      "FirstName": "Preciuos",
+      "SecondName": "Nekuse",
+      "Username": "Pec",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "2_JnHjtnpV0"
+    },
+    {
+      "FirstName": "",
+      "SecondName": "",
+      "Username": "",
+      "Password": "",
+      "Course": "",
+      "year": "",
+      "id": "dmmMRxf8hL4"
+    },
+    {
+      "FirstName": "dd",
+      "SecondName": "dddddd",
+      "Username": "ddddd",
+      "Password": "dddd",
+      "Course": "dddddd",
+      "year": "dd",
+      "id": "aaczXi40HEw"
+    },
+    {
+      "FirstName": "Caleb",
+      "SecondName": "Kironde",
+      "Username": "caleb",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "4rrfOgYXbbk"
+    },
+    {
+      "FirstName": "",
+      "SecondName": "",
+      "Username": "ssssssss",
+      "Password": "sssssss",
+      "Course": "",
+      "year": "",
+      "id": "lvPdr-hLchM"
+    },
+    {
+      "FirstName": "Mesh",
+      "SecondName": "Mugisha",
+      "Username": "Mesh",
+      "Password": "1234",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "l2excu7ynLY"
+    },
+    {
+      "FirstName": "EEE",
+      "SecondName": "WWWWWW",
+      "Username": "WWWWWWWW",
+      "Password": "DDDD",
+      "Course": "DDDDDDD",
+      "year": "DDD",
+      "id": "Ud7G4rofsos"
+    },
+    {
+      "FirstName": "ZAYNA",
+      "SecondName": "MANU",
+      "Username": "ZAYNA",
+      "Password": "ZAAAA",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "k6Rec7McOeQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

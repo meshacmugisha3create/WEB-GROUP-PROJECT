@@ -1,23 +1,50 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Login from "./Login"
-import Register from "./Register"
-import Dashboard from "./Dashboard"; 
-import CreateGroup from "./CreateGroup";
-import StudySession from "./StudySession";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { AppBar, Toolbar, Typography, Button, Container, Box } from '@mui/material';
 
-function App(){
-  return(
 
-    <BrowserRouter>
-    <Routes>
-      <Route path = "/" element = {<Login />} />
-      <Route path = "/Register" element = {<Register />} />
-      <Route path = "/Dashboard" element = {<Dashboard />} />
-      <Route path = "/CreateGroup" element = {<CreateGroup />} />
-      <Route path = "/StudySession" element = {<StudySession />} />
-    </Routes>  
-    </BrowserRouter>
-  )
+import Page1 from './Page1';
+import Page2 from './Page2';
+import Page3 from './Page3';
+import Page4 from './Page4';
+import Page5 from './Page5';
+import Page6 from './Page6'; 
+import Register from './Register';
+import Login from './Login';
+
+function App() {
+  return (
+    <Router>
+      <AppBar position="static" sx={{ background: 'linear-gradient(45deg, #1a237e 30%, #0d47a1 90%)' }}>
+        <Toolbar>
+          <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
+            UCU CONNECT
+          </Typography>
+          <Box>
+            <Button color="inherit" component={Link} to="/">Create</Button>
+            <Button color="inherit" component={Link} to="/page3">View</Button>
+            <Button color="inherit" component={Link} to="/page4">Admin</Button>
+            <Button color="inherit" component={Link} to="/page5">Profile</Button>
+            <Button color="inherit" component={Link} to="/page6">Help</Button>
+            <Button color="inherit" component={Link} to="/">Logout</Button>
+          </Box>
+        </Toolbar>
+      </AppBar>
+
+      <Container sx={{ mt: 4 }}>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
+          <Route path="/page1" element={<Page1 />} />
+          <Route path="/page2" element={<Page2 />} />
+          <Route path="/page3" element={<Page3 />} />
+          <Route path="/page4" element={<Page4 />} />
+          <Route path="/page5" element={<Page5 />} />
+          <Route path="/page6" element={<Page6 />} />
+        </Routes>
+      </Container>
+    </Router>
+  );
 }
 
-export default App; 
+export default App;
