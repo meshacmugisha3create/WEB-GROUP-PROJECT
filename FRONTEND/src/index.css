@@ -1045,3 +1045,12 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.barpic{
+    background-image: url(./pics/Screenshot\ \(131\).png);
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,3 +1,4 @@
+// Help and FAQ page
 import React from 'react';
 import { Container, Typography, Accordion, AccordionSummary, AccordionDetails, Box, Paper } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -6,13 +7,16 @@ import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 export default function Page6() {
   return (
     <Container sx={{ py: 5 }}>
+      {/* Page header */}
       <Box sx={{ textAlign: 'center', mb: 5 }}>
         <ContactSupportIcon sx={{ fontSize: 50, color: '#1a237e' }} />
         <Typography variant="h4" fontWeight="bold" gutterBottom>Help & Support</Typography>
         <Typography color="textSecondary">Common questions about the Study Group Finder</Typography>
       </Box>
 
+      {/* FAQ section with expandable items */}
       <Paper elevation={0} sx={{ borderRadius: 3, overflow: 'hidden' }}>
+        {/* Question 1: How to join */}
         <Accordion sx={{ mb: 1 }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography fontWeight="bold">How do I join a study group?</Typography>
@@ -24,6 +28,7 @@ export default function Page6() {
           </AccordionDetails>
         </Accordion>
 
+        {/* Question 2: Data persistence */}
         <Accordion sx={{ mb: 1 }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography fontWeight="bold">Is the data saved permanently?</Typography>
@@ -35,6 +40,7 @@ export default function Page6() {
           </AccordionDetails>
         </Accordion>
 
+        {/* Question 3: How to delete group */}
         <Accordion sx={{ mb: 1 }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography fontWeight="bold">How can I remove an old group?</Typography>
@@ -47,6 +53,7 @@ export default function Page6() {
         </Accordion>
       </Paper>
 
+      {/* Support contact information */}
       <Box sx={{ mt: 5, textAlign: 'center', p: 3, bgcolor: '#e3f2fd', borderRadius: 3 }}>
         <Typography variant="h6" fontWeight="bold">Technical Support</Typography>
         <Typography>For BSIT project inquiries: support@ucu.ac.ug</Typography>
