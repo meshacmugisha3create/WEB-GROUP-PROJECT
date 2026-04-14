@@ -1,0 +1,1033 @@
+.myBox {
+    width: 500px;
+    height: 380px;
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.my {
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    background-image: url(../src/pics/Screenshot\ \(131\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.pytho {
+    width: 300px;
+    height: 60px;
+    margin-left: 85px;
+    margin-bottom: 300px;
+    position: absolute;
+    top: 150px;
+}
+
+.grp {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.grpNew{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:600;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.username {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.email {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.password {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.login {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 90px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login:hover{
+    background-color: rgb(112, 107, 107);
+    cursor: pointer;
+}
+
+.word {
+    color: white;
+    font-size: 14;
+}
+
+.myBox2d {
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 60px;
+    position: absolute;
+    bottom: 463px;
+    z-index: 2;
+}
+
+.Register {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 90px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Register:hover{
+    background-color: rgb(112, 107, 107);
+    cursor: pointer;
+}
+
+.covImage{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./pics/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/*Register CSS*/
+.myBox1 {
+    width: 500px;
+    height: 479px;
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.my1 {
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    background-image: url(../src/pics/Screenshot\ \(131\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.pytho1 {
+    width: 300px;
+    height: 60px;
+    margin-left: 85px;
+    margin-bottom: 300px;
+    position: absolute;
+    top: 150px;
+}
+
+.grp1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.username1 {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.email1 {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.password1 {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.login1 {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.word1 {
+    color: white;
+}
+
+.myBox2d1 {
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 60px;
+    position: absolute;
+    bottom: 463px;
+    z-index: 2;
+}
+
+.Register1 {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Reg1{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Reg1:hover{
+    background-color: rgb(112, 107, 107);
+    cursor: pointer;
+};
+
+/*GGGGGGGGGGGGGG*/
+
+.firstName {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.secondName {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.program {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.year {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.covImage1{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./pics/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*DASHBAORD CSS*/
+.myBox2{
+    width: 80%;
+    height: 80%;
+    margin-top: 69px;
+    margin-left: 150px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.my2{
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    background-image: url(../src/pics/Screenshot\ \(131\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.pytho2{
+    width: 300px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 300px;
+    margin-top: 1px;
+    position: absolute;
+    top: 150px;
+}
+
+.grp2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+    margin-left: 80px;
+    position: relative;
+    bottom: 59px;
+}
+
+.MenuBar1{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 120px;
+    height: 35px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MenuBar1:hover{
+    background-color: rgb(109, 104, 104);
+    cursor: pointer;
+}
+
+.MenuBar2:hover{
+    background-color: rgb(109, 104, 104);
+    cursor: pointer;
+}
+
+.MenuBar3:hover{
+    background-color: rgb(109, 104, 104);
+    cursor: pointer;
+}
+
+.MenuBar4:hover{
+    background-color: rgb(109, 104, 104);
+    cursor: pointer;
+}
+
+.MenuBar5:hover{
+    background-color: rgb(109, 104, 104);
+    cursor: pointer;
+}
+
+.MenuBar2{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 120px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MenuBar3{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 120px;
+    height: 35px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MenuBar4{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 120px;
+    height: 35px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MenuBar5{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 120px;
+    height: 35px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu1{
+    color: white;
+}
+
+.menu2{
+    color: white;
+}
+
+.menu3{
+    color: white;
+}
+
+.menu4{
+    color: white;
+}
+
+.menu5{
+    color: white;
+}
+
+
+.myBox2d2{
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 60px;
+    position: absolute;
+    bottom: 463px;
+    z-index: 2;
+}
+
+.Register2{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Reg2{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*GGGGGGGGGGGGGG*/
+
+.firstName2{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.secondName2{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.program2{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.year2{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.covImage2{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./pics/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Register CSS*/
+.myBox1 {
+    width: 500px;
+    height: 479px;
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.my1 {
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    background-image: url(../src/pics/Screenshot\ \(131\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.pytho1 {
+    width: 300px;
+    height: 60px;
+    margin-left: 85px;
+    margin-bottom: 300px;
+    position: absolute;
+    top: 150px;
+}
+
+.grp1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.username1 {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.email1 {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.password1 {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.login1 {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.word1 {
+    color: white;
+}
+
+.myBox2d1 {
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 60px;
+    position: absolute;
+    bottom: 463px;
+    z-index: 2;
+}
+
+.Register1 {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 50px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reg1{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 80px;
+    height: 30px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reg1:hover{
+    background-color: rgb(102, 108, 106);
+    cursor: pointer;
+}
+
+/*GGGGGGGGGGGGGG*/
+
+.firstName {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.secondName {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.program {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.year {
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.covImage1{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./pics/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*Create Group CSS*/
+.groupBox{
+    width: 500px;
+    height: 479px;
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.grupmy{
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    background-image: url(../src/pics/Screenshot\ \(131\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.groupPytho{
+    width: 300px;
+    height: 60px;
+    margin-left: 85px;
+    margin-bottom: 300px;
+    position: absolute;
+    top: 150px;
+}
+
+.group1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.group2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:600;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.groupName{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.groupCourse{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.groupDescription{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.createButton{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 100px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.createButton:hover{
+    background-color: rgb(112, 107, 107);
+    cursor: pointer;
+}
+
+.createWord{
+    color: white;
+}
+
+/*GGGGGGGGGGGGGG*/
+
+.meetingPlace{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.group{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./pics/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*Study session CSS*/
+.sessionBox {
+    width: 500px;
+    height: 479px;
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.ssesmy{
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    background-image: url(../src/pics/Screenshot\ \(131\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.sessionPytho{
+    width: 300px;
+    height: 60px;
+    margin-left: 85px;
+    margin-bottom: 300px;
+    position: absolute;
+    top: 150px;
+}
+
+.session1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.session2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:600;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+
+.sessionDate{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.sessionTime{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.SessionLocation{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.SessionDescription{
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.sessionCreate{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    width: 120px;
+    height: 38px;
+    margin-top: 12px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sessionCreate:hover{
+    background-color: rgb(103, 99, 99);
+    cursor: pointer;
+}
+
+.SessWord{
+    color: white;
+}
+
+.session{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./pics/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
